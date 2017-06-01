@@ -5,7 +5,7 @@ TIME=`date '+%H:%M:%S'`
 
 COMMIT_TIME=${DATE}" "${TIME}
 
-echo "${COMMIT_TIME} commit \r\n" >> ./RADNE.MD
+echo "${COMMIT_TIME} commit \r\n" >> ./README.MD
 
 branch_list=$(git branch | grep '*')
 current_branch=${branch_list:2}
